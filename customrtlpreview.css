@@ -1,0 +1,17 @@
+﻿body {
+    padding-left: 0 !important;
+    padding-right:80px !important;
+}
+.fix-left-menu.selected, .sections.selected {
+    right: 0 !important;
+    left: unset !important;
+    margin-left: unset !important;
+    margin-right: 0 !important;
+}
+.float-panel {
+    margin-left: 0 !important;
+    margin-right: -480px !important;
+}
+html,body{
+    direction:rtl;
+}
